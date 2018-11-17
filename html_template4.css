@@ -1,0 +1,55 @@
+.sectionblok{
+	display:inline-block;
+}
+
+.sectionblok img{
+	width:60%;
+}
+.section1, .section2, .section3, aside{
+	padding:5px;
+	display:inline-block;
+}
+@media(min-width:600px){
+	.sectionblok{
+		width:68%;
+		display:inline-block;
+	}
+	aside{
+		width:29%;
+		float:right;
+	}
+	.section1, .section2{
+		#float:left;
+		#width:49%;
+	}
+	.section3{
+		#float:none;
+		#width:100%;
+	}
+}
+@media(min-width:800px){
+	
+	.section1, .section2{
+		width:47%;
+		float:left;
+	}
+	.section3{
+		float:none;
+		width:100%
+	}
+}
+@media(min-width:1000px){
+	.sectionblok{
+		width:74%;
+	}
+	aside{
+		width:23%;
+		float:right;
+	}
+	.section3{
+		float:left;
+	}
+	.section1, .section2, .section3{
+		width:31.5%;
+	}
+}

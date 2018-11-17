@@ -1,0 +1,48 @@
+/**
+In dit bestand heb ik de styling opgenomen die in bijna alle pagina's nodig is.
+De meer specifieke styling heb ik in een css bestand geplaats. Het idee is om alleen css code mee te sturen die ook echt nodig is.
+Afhankelijk van de hoeveelheid css code zal een overweging gemaakt moeten worden of de css code in 1 of meer bestanden moet worden.
+*/
+body{
+	width:auto;
+	height:auto;
+	border:1px solid black;
+	padding:10px;
+}
+header, nav, section, article, aside{
+	border:1px solid black;
+}
+#indexhome nav{
+	float:right;
+	width:200px;
+	padding-bottom: 100px;
+}
+#indexhome nav a{
+	display:block;
+	width:100%;
+	margin:10px;
+}
+header{
+	background-color: lightgreen;
+    padding: 10px;
+}
+nav{
+	background-color:lightyellow;
+	padding: 10px;
+}
+footer{
+	border:1px solid black;
+	display:inline-block;
+	width:100%;
+	padding:20px 0;
+}
+#footerlink{
+	display:inline-block;
+	margin-left:12px;
+}
+body footer #source{
+	margin-right:30px;
+	width:auto;
+	float:right;
+	
+}

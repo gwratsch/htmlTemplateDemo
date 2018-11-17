@@ -1,0 +1,43 @@
+
+/*
+Door float te gebruiken zorgen we er voor dat de blokken naast elkaar weergegeven worden.
+*/
+#template2 section,#template2 aside {
+	float:left;
+}
+/**
+Met deze instelling zorgen we er voor dat:
+- section en aside block binnen de div (rowcontent) blijven
+- de tekst in de section block binnen we lijnen van de body blijven
+- de footer in volle breedte eronder word weergeven.
+Laten we deze regel weg dan zien we 
+- de content van section block over de rand van het block wordt weergegeven.
+- de aside en footer naast de section block word weergegeven.
+*/
+#template2 #rowcontent{
+	display:inline-block;
+}
+#template2 section{
+	width:100%;
+}
+#template2 aside{
+	width:100%;
+}
+/** 
+met de volgende regels passen we de weergave van de blokken aan voor schermen vanaf 600px breed.
+De bovenstaande regels worden bij alle soorten regels gebruikt.
+Mijn advies is om hierboven de styling voor het kleinste scherm op te geven en met @media de styling vanaf een bepaalde groote (scherm).
+*/
+@media(min-width: 600px){
+#template2 section{
+	width:79%;
+	padding-left:5px;
+}
+#template2 aside{
+	width:18%;
+	padding-left:7px;
+}	
+#template2 aside img{
+	width:80%;
+}
+}

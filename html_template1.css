@@ -1,0 +1,27 @@
+nav a{
+	margin-right:10px;
+	padding-right:10px;
+	border-right:solid 1px black;
+}
+#image1{
+	float: right;
+	margin:10px;
+}
+
+#image2{
+	width:30%;
+	height:10%;
+	float:left;
+	margin-top:35px;
+	margin-right:10px;
+	display:block;
+}
+
+#toplink{
+	float:right;
+	margin-right:12px;
+
+}
+article p{
+	color:red;
+}
